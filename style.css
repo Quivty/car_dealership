@@ -1,0 +1,117 @@
+body,html{
+    padding: 0;
+    margin: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100%;
+}
+
+header{
+    background-color: black;
+    color: white;
+    height: 100px;
+    padding: 20px 40px;
+    display: grid;
+    grid-auto-flow: column;
+    align-content:center;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+.koszyk{
+    display: grid;
+    grid-auto-flow: column;
+    align-content: center;
+    align-self: center;
+    justify-self: end;
+    width: 20%;
+    height: 30%;
+    padding: 5px;
+    border-radius: 10px;
+    color: black;
+    background: #69f65c;
+}
+
+.koszyk>img{
+    width: 30px;
+}
+
+main{
+    background-color: white;
+    color: black;
+    display: grid;
+    grid-template-rows: repeat(auto,3);
+    gap: 20px;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+.formularz{
+    display: grid;
+    justify-self: center;
+    grid-auto-flow: column;
+    gap: 40px;
+    width: 100%;
+}
+
+button{
+    background-color:#97ff67;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    text-align: center;
+    height: 40px;
+}
+
+.wrapform{
+    display: grid;
+    justify-content: center;
+    grid-auto-flow: column;
+
+}
+
+select{
+    background-color:#97ff67;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
+    height: 40px;
+}
+
+.pokazywacz{
+    background-color: #b8ff97;
+    border-radius: 30px;
+    padding: 20px;
+    display:grid;
+    grid-template-columns: 300px 300px;
+    grid-template-rows: 300px 300px;
+    gap: 20px;
+    justify-content: center;
+    align-content: center;
+}
+
+.pokazywacz>div{
+    width: 300px;
+    height: 300px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #d0f8be;
+    color: black;
+}
+/* .cena{grid-area: c;}
+.nazwa{grid-area: n;}
+.opis{grid-area: o;}
+.image{grid-area: i;} */
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 50px;
+    font-size: 3em;
+    text-align: center;
+}

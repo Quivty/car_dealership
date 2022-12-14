@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>AutoDealer24</title>
+</head>
+<body>
+    <section class="wrapper">
+        <header><h1>AutoDealer24</h1><div class="koszyk"><img src="img/koszyk.png" alt="koszyk"><span class="koszykwpisz">0 PLN
+            
+        </span></div></header>
+        <main>
+            <p>Posiadamy wiele aut w każdej cenie. Zapraszamy do kupna oraz specyfikacji poniżej!</p>
+            <section class="formularz">
+                <form action="koszyk">
+                    <select>
+                        <option selected="selected">Wybierz z listy</option>
+                        <option value="0">Hyundai Santa Fe</option>
+                        <option value="1">Audi A4</option>
+                        <option value="2">Mercedes-Benz Klasa V</option>
+                        <option value="3">BMW X5</option>
+                        <option value="4">Toyota RAV4</option>
+                        <option value="5">Peugeot 308</option>
+                    </select>
+                </form>
+                <button class="dodajkoszyk">Dodaj do koszyka</button>
+            </section>
+            
+            <section class="pokazywacz">
+                <div class="nazwa"></div>
+                <div class="cena"></div>   
+                <div class="opis"></div>
+                <div class="image"></div>
+            </section>
+        </main>
+        <footer>
+            Made by <a href="https://fbork.zsti.me">Franciszek Borkowski</a>
+        </footer>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
